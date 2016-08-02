@@ -6,7 +6,7 @@ function doThing(callback){
 
 function foo (callback){
 	doThing(function (err,res){
-		if(err) return callback(err);	
+		if(err) return callback(err);	//added return here
 		callback(null,res);
 	});
 }
