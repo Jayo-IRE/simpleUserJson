@@ -20,7 +20,7 @@ function calldbBackoff(err,delay){
 	setTimeout(function(){
 		db.connect(function(err) {
 		if (err) {
-			console.error('error here', err);
+			console.error('error :', err);
 			calldbBackoff(null,delay*2);
 			}
 		else{
