@@ -7,7 +7,9 @@ import sample data using command ./mongoimport --db test --collection users --dr
 https://gist.github.com/jasonmadigan/009c15b5dc4b4eccd32b
 
 RUNNING
+
 $ "npm install"
+
 $ "node index.js"
 
 
