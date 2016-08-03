@@ -14,19 +14,6 @@ var db = {
 // Try to connect, log a successful connection & exit
 // If we fail to connect, log an error and return
 
-/*
-db.connect(function(err) {
-		console.log('count=',counter);
-		if (err) {
-			console.error('error here', err);
-			attempts++;
-			return;
-		}	
-		console.log('successfully connected!');
-
-});
-*/
-
 
 function calldbBackoff(err,delay){
 	console.log('delay=',delay);
