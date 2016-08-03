@@ -1,5 +1,5 @@
 var one;
-	var two;
+var two;
 function remoteMathService(cb){
 	
 	callOneService(function(err,num){
